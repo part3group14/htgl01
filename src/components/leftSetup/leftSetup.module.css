@@ -1,0 +1,10 @@
+.box{
+    width: 220px;
+    overflow-x: hidden;
+    background-color: #001529;
+    color: #c2c2c2;
+    height:100%;
+    transition: 0.2s;
+}
+
+  
