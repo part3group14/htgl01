@@ -14,6 +14,7 @@ export default class leftSetup extends React.Component {
     render = () => {
         return (
             <div style={{ width: this.props.display }} className={style.box}>
+                <div className={style.n}> 
                 <div className={style.userImg}>
                     <a className={style.userA}>
                         <img src='img/logo.png' className={style.img}></img>
@@ -22,6 +23,7 @@ export default class leftSetup extends React.Component {
                 </div>
                 <div>
                     <Layou></Layou>
+                </div>
                 </div>
             </div>
         )

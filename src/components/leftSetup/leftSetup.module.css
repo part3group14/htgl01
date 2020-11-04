@@ -1,5 +1,6 @@
 .box{
-    float: left;
+    position: relative;
+    float: right;
     padding-top:60px;
     width: 220px;
     overflow-x: hidden;
@@ -7,6 +8,12 @@
     color: #c2c2c2;
     height:100%;
     transition: 0.2s;
+}
+.n{
+    position: absolute;
+    right: 0;
+    width:220px !important;
+    width:100%;
 }
 .userImg{
     display:inline-block;

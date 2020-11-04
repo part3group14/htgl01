@@ -57,7 +57,7 @@ header{
 }
 .right{
     padding-top: 60px;
-    float: left;
+    float: right;
     box-sizing: border-box;
     height:100%;
     flex: 1;
