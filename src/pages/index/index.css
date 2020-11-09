@@ -56,6 +56,7 @@ header{
     flex-shrink: 1;
 }
 .right{
+    position: relative;
     padding-top: 60px;
     float: right;
     box-sizing: border-box;
@@ -126,4 +127,48 @@ a:hover{
 }
 .padding{
     padding:0 20px;
+}
+
+.navTitle{
+    position: absolute;
+    display: flex;
+    top:0;
+    margin-top:55px;
+    height: 40px;
+    width:100%;
+    background-color: rgb(242, 242, 242);
+}
+.navTitle li{
+    transition: 0.3s;
+    line-height: 40px;
+    min-width: 65px;
+    padding: 0 10px;
+}
+.this{
+    background-color: #fff;
+    border:1px solid rgb(226, 226, 226);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.this i{
+    display: inline-block;
+    position: relative;
+    top:-15px;
+    width:100%;
+    height:100%;
+    color:rgb(194, 197, 205);
+    font-size:12px;
+}
+.this > div {
+    margin-left: 8px;
+    border-radius: 50%;
+    width:12px;
+    height:12px;
+}
+.this > div:hover{
+    background-color:rgb(255, 87, 34) ;
+}
+.this > div i:hover{
+    color:#fff;
 }

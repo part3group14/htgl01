@@ -6,7 +6,6 @@ export default class leftSetup extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            display: 'show',
             wz:['项目管理','文章管理','公告管理','轮播管理','分类管理','评论管理']
         }
     }
@@ -22,7 +21,7 @@ export default class leftSetup extends React.Component {
                     <p>你好！admin，欢迎回来</p>
                 </div>
                 <div>
-                    <Layou></Layou>
+                    <Layou box={this.props.box}></Layou>
                 </div>
                 </div>
             </div>
